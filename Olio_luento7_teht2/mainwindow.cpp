@@ -132,3 +132,85 @@ void MainWindow::on_clearButton_clicked()
     qDebug() << "Puhdistettu, palataan tilaan: " << tila;
 }
 
+
+void MainWindow::on_pushButton4_clicked()
+{
+    SetEditNum(4);
+}
+
+
+void MainWindow::on_pushButton5_clicked()
+{
+    SetEditNum(5);
+}
+
+
+void MainWindow::on_pushButton6_clicked()
+{
+    SetEditNum(6);
+}
+
+
+void MainWindow::on_pushButton7_clicked()
+{
+    SetEditNum(7);
+}
+
+
+void MainWindow::on_pushButton8_clicked()
+{
+    SetEditNum(8);
+}
+
+
+void MainWindow::on_pushButton9_clicked()
+{
+    SetEditNum(9);
+}
+
+
+void MainWindow::on_divideButton_clicked()
+{
+
+    if (tila == 2){
+        //haetaan num1
+        QString n1 = ui->num1Edit->text();
+        num1 =n1.toInt();
+        //haetaan num2
+        QString n2 = ui->num2Edit->text();
+        num2 =n2.toInt();
+        qDebug() << num1 << "/" << num2;
+
+        result = num1 / num2;
+
+        QString r = QString::number(result);
+        ui->num3Edit->setText(r);
+        tila = 0;
+        qDebug() << "Nykyinen tila: " << tila;
+
+    }
+}
+
+
+void MainWindow::on_multiplyButton_clicked()
+{
+    if (tila == 2){
+        //haetaan num1
+        QString n1 = ui->num1Edit->text();
+        num1 =n1.toInt();
+        //haetaan num2
+        QString n2 = ui->num2Edit->text();
+        num2 =n2.toInt();
+        qDebug() << num1 << "*" << num2;
+
+        result = num1 * num2;
+
+        QString r = QString::number(result);
+        ui->num3Edit->setText(r);
+        tila = 0;
+        qDebug() << "Nykyinen tila: " << tila;
+
+    }
+}
+
+

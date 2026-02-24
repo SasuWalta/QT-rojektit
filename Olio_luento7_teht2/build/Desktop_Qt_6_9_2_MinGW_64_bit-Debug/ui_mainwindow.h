@@ -34,6 +34,14 @@ public:
     QPushButton *pushButton3;
     QPushButton *enterButton;
     QPushButton *clearButton;
+    QPushButton *pushButton4;
+    QPushButton *pushButton5;
+    QPushButton *pushButton6;
+    QPushButton *pushButton7;
+    QPushButton *pushButton8;
+    QPushButton *pushButton9;
+    QPushButton *divideButton;
+    QPushButton *multiplyButton;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -74,6 +82,30 @@ public:
         clearButton = new QPushButton(centralwidget);
         clearButton->setObjectName("clearButton");
         clearButton->setGeometry(QRect(220, 270, 90, 29));
+        pushButton4 = new QPushButton(centralwidget);
+        pushButton4->setObjectName("pushButton4");
+        pushButton4->setGeometry(QRect(90, 190, 90, 29));
+        pushButton5 = new QPushButton(centralwidget);
+        pushButton5->setObjectName("pushButton5");
+        pushButton5->setGeometry(QRect(210, 190, 90, 29));
+        pushButton6 = new QPushButton(centralwidget);
+        pushButton6->setObjectName("pushButton6");
+        pushButton6->setGeometry(QRect(330, 190, 90, 29));
+        pushButton7 = new QPushButton(centralwidget);
+        pushButton7->setObjectName("pushButton7");
+        pushButton7->setGeometry(QRect(90, 230, 90, 29));
+        pushButton8 = new QPushButton(centralwidget);
+        pushButton8->setObjectName("pushButton8");
+        pushButton8->setGeometry(QRect(210, 230, 90, 29));
+        pushButton9 = new QPushButton(centralwidget);
+        pushButton9->setObjectName("pushButton9");
+        pushButton9->setGeometry(QRect(330, 230, 90, 29));
+        divideButton = new QPushButton(centralwidget);
+        divideButton->setObjectName("divideButton");
+        divideButton->setGeometry(QRect(460, 220, 90, 29));
+        multiplyButton = new QPushButton(centralwidget);
+        multiplyButton->setObjectName("multiplyButton");
+        multiplyButton->setGeometry(QRect(460, 270, 90, 29));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -98,6 +130,14 @@ public:
         pushButton3->setText(QCoreApplication::translate("MainWindow", "3", nullptr));
         enterButton->setText(QCoreApplication::translate("MainWindow", "Enter", nullptr));
         clearButton->setText(QCoreApplication::translate("MainWindow", "Clear", nullptr));
+        pushButton4->setText(QCoreApplication::translate("MainWindow", "4", nullptr));
+        pushButton5->setText(QCoreApplication::translate("MainWindow", "5", nullptr));
+        pushButton6->setText(QCoreApplication::translate("MainWindow", "6", nullptr));
+        pushButton7->setText(QCoreApplication::translate("MainWindow", "7", nullptr));
+        pushButton8->setText(QCoreApplication::translate("MainWindow", "8", nullptr));
+        pushButton9->setText(QCoreApplication::translate("MainWindow", "9", nullptr));
+        divideButton->setText(QCoreApplication::translate("MainWindow", "/", nullptr));
+        multiplyButton->setText(QCoreApplication::translate("MainWindow", "*", nullptr));
     } // retranslateUi
 
 };

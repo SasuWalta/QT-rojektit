@@ -46,7 +46,15 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         "on_pushButton2_clicked",
         "on_pushButton3_clicked",
         "on_enterButton_clicked",
-        "on_clearButton_clicked"
+        "on_clearButton_clicked",
+        "on_pushButton4_clicked",
+        "on_pushButton5_clicked",
+        "on_pushButton6_clicked",
+        "on_pushButton7_clicked",
+        "on_pushButton8_clicked",
+        "on_pushButton9_clicked",
+        "on_divideButton_clicked",
+        "on_multiplyButton_clicked"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -64,6 +72,22 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         QtMocHelpers::SlotData<void()>(7, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'on_clearButton_clicked'
         QtMocHelpers::SlotData<void()>(8, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButton4_clicked'
+        QtMocHelpers::SlotData<void()>(9, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButton5_clicked'
+        QtMocHelpers::SlotData<void()>(10, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButton6_clicked'
+        QtMocHelpers::SlotData<void()>(11, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButton7_clicked'
+        QtMocHelpers::SlotData<void()>(12, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButton8_clicked'
+        QtMocHelpers::SlotData<void()>(13, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButton9_clicked'
+        QtMocHelpers::SlotData<void()>(14, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_divideButton_clicked'
+        QtMocHelpers::SlotData<void()>(15, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_multiplyButton_clicked'
+        QtMocHelpers::SlotData<void()>(16, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -94,6 +118,14 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 4: _t->on_pushButton3_clicked(); break;
         case 5: _t->on_enterButton_clicked(); break;
         case 6: _t->on_clearButton_clicked(); break;
+        case 7: _t->on_pushButton4_clicked(); break;
+        case 8: _t->on_pushButton5_clicked(); break;
+        case 9: _t->on_pushButton6_clicked(); break;
+        case 10: _t->on_pushButton7_clicked(); break;
+        case 11: _t->on_pushButton8_clicked(); break;
+        case 12: _t->on_pushButton9_clicked(); break;
+        case 13: _t->on_divideButton_clicked(); break;
+        case 14: _t->on_multiplyButton_clicked(); break;
         default: ;
         }
     }
@@ -119,14 +151,14 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 7)
+        if (_id < 15)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 7;
+        _id -= 15;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 7)
+        if (_id < 15)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 7;
+        _id -= 15;
     }
     return _id;
 }
