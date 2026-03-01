@@ -1,0 +1,9 @@
+C:/Users/Sasu Walta/Desktop/olio_luento8/Olio_luento8/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/Olio_luento8.dir
+C:/Users/Sasu Walta/Desktop/olio_luento8/Olio_luento8/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Sasu Walta/Desktop/olio_luento8/Olio_luento8/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Sasu Walta/Desktop/olio_luento8/Olio_luento8/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+C:/Users/Sasu Walta/Desktop/olio_luento8/Olio_luento8/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/install.dir
+C:/Users/Sasu Walta/Desktop/olio_luento8/Olio_luento8/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+C:/Users/Sasu Walta/Desktop/olio_luento8/Olio_luento8/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+C:/Users/Sasu Walta/Desktop/olio_luento8/Olio_luento8/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/Olio_luento8_autogen_timestamp_deps.dir
+C:/Users/Sasu Walta/Desktop/olio_luento8/Olio_luento8/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/Olio_luento8_autogen.dir
